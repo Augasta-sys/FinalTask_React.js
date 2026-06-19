@@ -1,0 +1,21 @@
+.page {
+  padding:30px;
+  text-align:center;
+}
+
+.page input {
+  padding:10px;
+  margin:10px;
+  border-radius:8px;
+  border:1px solid gray;
+}
+
+.page button {
+  padding:10px 20px;
+  cursor:pointer;
+  margin:10px;
+}
+
+.page hr{
+   margin:20px;
+}

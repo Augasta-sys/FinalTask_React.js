@@ -1,0 +1,38 @@
+.hero {
+   height:80vh;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   text-align:center;
+   background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
+   url("https://images.unsplash.com/photo-1555507036-ab1f4038808a");
+   background-size:cover;
+   color:white;
+   padding:20px;
+}
+
+.hero h1 {
+   font-size:3rem;
+   margin-bottom:20px;
+}
+
+.hero p {
+   font-size:20px;
+   margin-bottom:20px;
+}
+
+.hero button {
+   padding:15px 25px;
+   border:none;
+   border-radius:10px;
+   cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.hero h1 {
+   font-size:2rem;
+}
+
+}
